@@ -1,0 +1,131 @@
+body {
+  background-image: linear-gradient(rgb(180, 180, 180), rgb(11, 93, 131));
+  height: 100vh;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 70px;
+  height: 70px;
+}
+
+h1 {
+  color: white;
+  margin-top: 10px;
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 955px;
+  margin: auto;
+  /* border: 2px solid rgb(122, 177, 221); */
+  border: 4px solid rgb(248, 248, 248);
+  height: 50vh;
+  padding: 33px;
+  overflow-y: auto;
+  margin-bottom: 23px;
+  border-radius: 13px;
+}
+
+.message {
+  font-size: medium;
+  font-family: cursive;
+  background-color: rgb(184, 235, 142);
+  width: 24%;
+  padding: 10px;
+  margin: 17px 12px;
+  border: 2px solid rgb(146, 141, 141);
+  border-radius: 10px;
+}
+
+.left {
+  float: left;
+  clear: both;
+  background-color: white;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+.centre {
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 2px solid white;
+  left: 524px;
+  color: rgba(80, 65, 4, 0.918);
+  clear: both;
+  background-color: rgb(189, 179, 89);
+  padding: 3px;
+  width: 40vw;
+}
+
+.lcentre {
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+  border: 2px solid white;
+  clear: both;
+  background-color: rgb(233, 91, 48);
+  padding: 3px;
+  width: 40vw;
+}
+
+#send-container {
+  text-align: center;
+  max-width: 1085px;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+#messageInp {
+  font-family: cursive;
+  font-size: large;
+  width: 80%;
+  border-radius: 8px;
+  height: 34px;
+  border: 4px solid rgb(107, 175, 230);
+}
+
+.btn {
+  font-family: cursive;
+  width: 9%;
+  cursor: pointer;
+  border: 4px solid rgb(95, 179, 74);
+  border-radius: 8px;
+  height: 45px;
+}
+
+.btn:hover {
+  border-color: white;
+  background-color: rgb(76, 235, 71);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(63, 61, 61);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(117, 112, 112);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
