@@ -1,9 +1,11 @@
-const socket = io("http://localhost:8000");
+import { io } from "socket.io-client";
+
+const socket = io(import.meta.env.VITE_BACKEND_URL);
 
 const form = document.getElementById("send-container");
 const messageInput = document.getElementById("messageInp");
 const messageContainer = document.querySelector(".container");
-var audio = new Audio("notification.mp3");
+var audio = new Audio("/notification.mp3");
 
 const append = (message, position) => {
   const messageElement = document.createElement("div");

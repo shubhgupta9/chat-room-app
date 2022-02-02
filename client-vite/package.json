@@ -1,0 +1,16 @@
+{
+  "name": "client-vite",
+  "version": "0.0.0",
+  "scripts": {
+    "start:dev": "npx vite --mode=development",
+    "start:prod": "npx vite --mode=production",
+    "build": "npx vite build --mode=development",
+    "preview": "npx vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.7.2"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.4.1"
+  }
+}
